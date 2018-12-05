@@ -1,0 +1,6 @@
+{
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": ["async-to-promises"]
+}
