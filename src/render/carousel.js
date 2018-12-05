@@ -5,13 +5,15 @@ const tilesPerPage = 3;
 export const render = (users, streams, games) => {
     const pagedUsers = [].concat.apply([], users.map((e, i) => i % tilesPerPage ? [] : [users.slice(i, i + tilesPerPage)]));
 
-    const pages = createElement("div", ["twitch-carousel__pages"], null, _renderPages(pagedUsers, streams, games));
+    const pages = createElement("div", ["twitch-carousel__pages"], null, _renderPages(pagedUsers, streams, games)); 
 
     const carousel = createElement("div", ["twitch-carousel"], null, [
         createElement("h2", ["twitch-carousel__title"], null, [ 
             createElement("span", null, null, null, "Streaming") 
         ], "Now"),
-        pages,
+        createElement("div", ["twitch-carousel__padding"], null, [
+            pages
+        ]),
         createElement("div", ["twitch-carousel__controls"], null, _renderPagingControls(pagedUsers, pages))
     ]);
 
