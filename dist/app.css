@@ -90,7 +90,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     align-items: center;
-    height: 24px;
+    height: 45px;
 }
 
 .twitch-carousel__card__info__name {
