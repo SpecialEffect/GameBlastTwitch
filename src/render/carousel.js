@@ -80,6 +80,10 @@ function _renderCard(user, streams, games) {
         ]));
     }
 
+    card.addEventListener("click", () => {
+        window.open(`https://www.twitch.tv/${user.login}`, "_blank")
+    });
+
     return card;
 }
 
