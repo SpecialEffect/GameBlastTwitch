@@ -1,5 +1,5 @@
 export const twitchOptions = {
-    clientId: "fs4r46yzv1ng0aj55zbqid4op65b2v",
-    clientSecret: "onbq8co5ql5wbfwwwdcmpio9tyc98r",
+    clientId: "af9yyonifmtzezb612a20dxaxy6oc0",
+    clientSecret: "msvao39nevhnnmuoyzk14d15yl07yx",
     storageKey: "TWITCH_ACCESS_TOKEN"
 };
