@@ -1,7 +1,6 @@
 # SpecialEffect Twitch Plugin
 
 ## Building
-___
 Restore packages with 
 ```npm install```
 
@@ -19,7 +18,6 @@ Run ```dev``` to have webpack watch for changes in the source and rebuild automa
 Run ```build``` to create production, minified, assets. 
 
 ## Usage
-___
 Include the following css and java script files
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SpecialEffect/GameBlastTwitch/dist/app.min.css"/>
@@ -38,7 +36,6 @@ eg:
 ```
 
 ## Rendering
-___
 After referencing the files, add a div to the page with the id "carousel". The javascript will render the twitch component inside of this div.
 
 ```html 
@@ -46,7 +43,6 @@ After referencing the files, add a div to the page with the id "carousel". The j
 ```
 
 ## Configuring twitch users
-___
 Add a div with the css class ```twitch-usernames```. 
 The Text content of this div should be a comma delimited list of twitch usernames. eg:
 ```html
